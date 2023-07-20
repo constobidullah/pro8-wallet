@@ -10,7 +10,7 @@ body {
 
 nav {
     height: 50px;
-    padding: 0 40px;
+    padding: 20px 40px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -89,4 +89,36 @@ nav ul li:hover ul{
 
 #user-account a:nth-child(2):hover{
     background-color: #246837;
+}
+
+
+
+/* Header container */
+
+#header-container{
+    height: 70vh;
+    background-color: rgb(247, 251, 255);
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#header-text h1{
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+#header-text p{
+    color: gray;
+    margin-bottom: 40px;
+}
+
+#header-text button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    background-color: #56b872;
+    color: white;
+    font-weight: 800;
 }
