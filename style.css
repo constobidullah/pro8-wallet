@@ -102,6 +102,8 @@ nav ul li:hover ul{
     display: flex;
     align-items: center;
     gap: 50px;
+
+    margin-bottom: 100px;
 }
 
 #header-text h1{
