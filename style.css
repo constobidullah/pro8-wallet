@@ -1,5 +1,92 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+nav {
+    height: 50px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#check {
+    display: none;
+}
+
+#toggle {
+    font-size: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: black;
+    transition: all .4s ease-in;
+}
+
+nav ul li a:hover{
+    color: #3f9457;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul ul{
+    display: block;
+    background-color: aliceblue;
+    max-width: 150px;
+    border-radius: 3px;
+    position: absolute;
+    top: 20px;
+    left: -9999px;
+}
+
+nav ul ul li{
+    padding: 10px;
+}
+
+nav ul li:hover ul{
+    left: 0;
+}
+
+#user-account a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 900;
+    background-color: #e0f2e5;
+    color: #3f9457;
+    transition: background-color .5s ease-in-out;
+}
+
+#user-account a:nth-child(2) {
+    background-color: #3f9457;
+    color: white;
+}
+
+#user-account a:hover {
+    background-color: #3f9457;
+    color: white;
+}
+
+#user-account a:nth-child(2):hover{
+    background-color: #246837;
 }

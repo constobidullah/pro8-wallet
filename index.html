@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,60 @@
     <!-- Style file -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
     <title>Wallet</title>
 </head>
+
 <body>
-    
+
+    <!-- navbar section -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" id="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label for="">
+                <img src="./images/logo.png" alt="">
+            </label>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                    
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Home</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <div id="user-account">
+                <a href="">Sign up</a>
+                <a href="">Login</a>
+            </div>
+        </nav>
+    </header>
+
 </body>
+
 </html>
