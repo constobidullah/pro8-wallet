@@ -10,7 +10,7 @@ body {
 
 nav {
     height: 50px;
-    padding: 20px 40px 0;
+    padding: 20px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -295,4 +295,88 @@ nav ul li:hover ul {
     color: gray;
     line-height: 30px;
     font-size: 1.1rem;
+}
+
+/* Difference of us */
+
+#difference-of-us{
+    padding: 30px 100px;
+}
+
+.difference-of-us-item{
+    background-color: #fbfbfb;
+    padding: 100px 100px 200px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.difference-of-us-item h3{
+    color: #31aa53;
+}
+
+.difference-of-us-item h1{
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.loan-link a:nth-child(1){
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 25px;
+    background-color: #31aa53;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.loan-link a:nth-child(2){
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: rgb(75, 73, 73);
+    font-weight: 800;
+    border-radius: 5px;
+}
+.loan-link a:nth-child(3){
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: rgb(75, 73, 73);
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.loan-link a:hover{
+    background-color: #c4f3d1;
+    color: #175228;
+}
+
+.loan-link a:focus{
+    background-color: #50bd6f;
+    color: white;
+}
+
+.difference-of-us-bottom-item{
+    margin: -150px 50px 0;
+    padding: 50px 30px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    box-shadow: 0 5px 30px 0 rgba(0, 0 , 0 , 0.1);
+}
+
+.difference-bottom-item-text{
+    text-align: left;
+    width: 100%;
+}
+
+.difference-bottom-item-text p{
+    color: gray;
+    font-weight: 600;
+    font-size: .9rem;
 }
