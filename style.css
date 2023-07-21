@@ -41,15 +41,15 @@ nav ul li a {
     transition: all .4s ease-in;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: #3f9457;
 }
 
-nav ul li{
+nav ul li {
     position: relative;
 }
 
-nav ul ul{
+nav ul ul {
     display: block;
     background-color: aliceblue;
     max-width: 150px;
@@ -59,11 +59,11 @@ nav ul ul{
     left: -9999px;
 }
 
-nav ul ul li{
+nav ul ul li {
     padding: 10px;
 }
 
-nav ul li:hover ul{
+nav ul li:hover ul {
     left: 0;
 }
 
@@ -87,7 +87,7 @@ nav ul li:hover ul{
     color: white;
 }
 
-#user-account a:nth-child(2):hover{
+#user-account a:nth-child(2):hover {
     background-color: #246837;
 }
 
@@ -95,7 +95,7 @@ nav ul li:hover ul{
 
 /* Header container */
 
-#header-container{
+#header-container {
     height: 70vh;
     background-color: rgb(247, 251, 255);
     padding: 0 50px;
@@ -106,21 +106,83 @@ nav ul li:hover ul{
     margin-bottom: 100px;
 }
 
-#header-text h1{
+#header-text h1 {
     font-size: 3.5rem;
     margin-bottom: 30px;
 }
 
-#header-text p{
+#header-text p {
     color: gray;
     margin-bottom: 40px;
 }
 
-#header-text button{
+#header-text button {
     border: none;
     border-radius: 10px;
     padding: 15px 30px;
     background-color: #56b872;
     color: white;
     font-weight: 800;
+}
+
+
+/* Our services container */
+
+#our-services-container {
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 130px;
+}
+
+.service-announc h3 {
+    color: #50bd6f;
+    margin-bottom: 20px;
+}
+
+.service-announc h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.service-announc p {
+    color: gray;
+}
+
+.service-item {
+    padding: 50px 30px 40px;
+    border: 1px solid rgb(238, 238, 238);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.service-item:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 40px 48px 0 rgba(0, 0, 0, 0.1), 0 6px 0 0 rgba(0, 0, 0, 0.0);
+}
+
+.service-item:hover h2 {
+    color: #3f9457;
+}
+
+.service-item span {
+    background-color: #e9e4fb;
+    color: #917aec;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.service-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.service-item h2 {
+    margin: 40px 0 20px;
+}
+
+.service-item p {
+    color: gray;
 }
