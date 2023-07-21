@@ -186,3 +186,48 @@ nav ul li:hover ul {
 .service-item p {
     color: gray;
 }
+
+
+/* About ourselves */
+
+#about-selves{
+    /* height: 70vh; */
+    background-color: rgb(247, 251, 255);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 150px 40px;
+    margin-bottom: 100px;
+}
+
+.about-selves-text{
+    width: 100%;
+}
+
+.about-selves-text h4{
+    color: #31aa53;
+    margin-bottom: 20px;
+}
+
+.about-selves-text h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.about-selves-text p{
+    color: gray;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.about-selves-text button{
+    border: none;
+    border-radius: 5px;
+    background-color: #31aa53;
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+}
