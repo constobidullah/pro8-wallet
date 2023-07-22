@@ -190,7 +190,7 @@ nav ul li:hover ul {
 
 /* About ourselves */
 
-#about-selves{
+#about-selves {
     /* height: 70vh; */
     background-color: rgb(247, 251, 255);
 
@@ -201,29 +201,29 @@ nav ul li:hover ul {
     margin-bottom: 100px;
 }
 
-.about-selves-text{
+.about-selves-text {
     width: 100%;
 }
 
-.about-selves-text h4{
+.about-selves-text h4 {
     color: #31aa53;
     margin-bottom: 20px;
 }
 
-.about-selves-text h1{
+.about-selves-text h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 20px;
 }
 
-.about-selves-text p{
+.about-selves-text p {
     color: gray;
     font-size: 1.2rem;
     line-height: 30px;
     margin-bottom: 30px;
 }
 
-.about-selves-text button{
+.about-selves-text button {
     border: none;
     border-radius: 5px;
     background-color: #31aa53;
@@ -233,39 +233,40 @@ nav ul li:hover ul {
 }
 
 
-#difference{
+#difference {
     padding: 50px;
     display: flex;
     justify-content: space-between;
     gap: 100px;
 }
+
 .difference-text {
     width: 100%;
 }
 
-.difference-text h4{
+.difference-text h4 {
     color: #31aa53;
     margin-bottom: 20px;
 }
 
-.difference-text h1{
+.difference-text h1 {
     font-size: 3rem;
     font-weight: 900;
     margin-bottom: 20px;
 }
 
-.difference-text p{
+.difference-text p {
     color: gray;
     font-size: 1.2rem;
     line-height: 30px;
     margin-bottom: 30px;
 }
 
-.difference-part{
+.difference-part {
     width: 100%;
 }
 
-.difference-item{
+.difference-item {
     /* background-color: #e6e3f3; */
     display: flex;
     align-items: center;
@@ -275,11 +276,11 @@ nav ul li:hover ul {
     transition: all .3s;
 }
 
-.difference-item:hover{
-    box-shadow: 0 20px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 10px 0 rgba(165, 164, 164, 0.3);
+.difference-item:hover {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 0 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-.difference-item i{
+.difference-item i {
     background-color: #e6e3f3;
     color: #8e70f8;
     padding: 20px;
@@ -287,11 +288,11 @@ nav ul li:hover ul {
     border-radius: 5px;
 }
 
-.difference-item-text h1{
+.difference-item-text h1 {
     margin-bottom: 20px;
 }
 
-.difference-item-text p{
+.difference-item-text p {
     color: gray;
     line-height: 30px;
     font-size: 1.1rem;
@@ -299,11 +300,11 @@ nav ul li:hover ul {
 
 /* Difference of us */
 
-#difference-of-us{
+#difference-of-us {
     padding: 30px 100px;
 }
 
-.difference-of-us-item{
+.difference-of-us-item {
     background-color: #fbfbfb;
     padding: 100px 100px 200px;
     border-radius: 5px;
@@ -311,17 +312,17 @@ nav ul li:hover ul {
     justify-content: center;
 }
 
-.difference-of-us-item h3{
+.difference-of-us-item h3 {
     color: #31aa53;
 }
 
-.difference-of-us-item h1{
+.difference-of-us-item h1 {
     font-size: 2.2rem;
     font-weight: 900;
     margin-bottom: 50px;
 }
 
-.loan-link a:nth-child(1){
+.loan-link a:nth-child(1) {
     text-decoration: none;
     margin: 0 5px;
     padding: 10px 25px;
@@ -330,16 +331,8 @@ nav ul li:hover ul {
     font-weight: 800;
     border-radius: 5px;
 }
-.loan-link a:nth-child(2){
-    text-decoration: none;
-    margin: 0 5px;
-    padding: 10px 25px;
-    background-color: transparent;
-    color: rgb(75, 73, 73);
-    font-weight: 800;
-    border-radius: 5px;
-}
-.loan-link a:nth-child(3){
+
+.loan-link a:nth-child(2) {
     text-decoration: none;
     margin: 0 5px;
     padding: 10px 25px;
@@ -349,17 +342,27 @@ nav ul li:hover ul {
     border-radius: 5px;
 }
 
-.loan-link a:hover{
+.loan-link a:nth-child(3) {
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 10px 25px;
+    background-color: transparent;
+    color: rgb(75, 73, 73);
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.loan-link a:hover {
     background-color: #c4f3d1;
     color: #175228;
 }
 
-.loan-link a:focus{
+.loan-link a:focus {
     background-color: #50bd6f;
     color: white;
 }
 
-.difference-of-us-bottom-item{
+.difference-of-us-bottom-item {
     margin: -150px 50px 0;
     padding: 50px 30px;
     background-color: white;
@@ -367,63 +370,72 @@ nav ul li:hover ul {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    box-shadow: 0 5px 30px 0 rgba(0, 0 , 0 , 0.1);
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
-.difference-bottom-item-text{
+.difference-of-us-bottom-item img{
+    width: 100%;
+}
+
+.difference-bottom-item-text {
     text-align: left;
     width: 100%;
 }
 
-.difference-bottom-item-text p{
+.difference-bottom-item-text p {
+    margin-top: 50px;
     color: gray;
     font-weight: 600;
-    font-size: .9rem;
+    font-size: 1.1rem;
 }
 
 /* Trusted people  */
 
-#trusted-parent{
+#trusted-parent {
     padding: 100px 50px;
     background-color: #fbfbfb;
 }
 
-.trusted-title{
+.trusted-title {
     text-align: center;
 }
 
-.trusted-title h3{
+.trusted-title h3 {
     color: #31aa53;
-}
-.trusted-title h1{
-    font-weight: 800;
-    font-size: 2.5rem;
+    margin-bottom: 20px;
 }
 
-.trusted-title p{
+.trusted-title h1 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.trusted-title p {
     color: gray;
     font-size: 1.5rem;
     font-weight: 500;
+    margin-bottom: 50px;
 }
 
-#trusted-item-container{
+#trusted-item-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
-.trusted-item{
+.trusted-item {
     background-color: rgb(250, 239, 239);
     padding: 15px;
     border-radius: 5px;
 }
 
-.trusted-image-name{
+.trusted-image-name {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.trusted-name h3{
+.trusted-name h3 {
     margin-bottom: 10px;
 }
