@@ -496,20 +496,44 @@ nav ul li:hover ul {
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.question-single-item summary{
+.question-single-item summary {
     font-size: 1.4rem;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.question-single-item details{
+.question-single-item details {
     width: 100%;
     /* text-align: center; */
 }
 
-.question-single-item details p{
+.question-single-item details p {
     margin: 20px 0;
     font-size: 1rem;
     font-weight: 600;
     color: gray;
+}
+
+.still-question-container {
+    height: auto;
+    padding: 10px 30px 30px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.still-question-container p{
+    color: gray;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.still-item h3{
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.still-item a{
+    text-decoration: none;
+    color: #0c9132;
+    border-bottom: 1px dotted #0c9132;
 }
