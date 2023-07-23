@@ -306,7 +306,7 @@ nav ul li:hover ul {
 
 .difference-of-us-item {
     background-color: #fbfbfb;
-    padding: 100px 100px 200px;
+    padding: 100px 100px 300px;
     border-radius: 5px;
     text-align: center;
     justify-content: center;
@@ -363,14 +363,14 @@ nav ul li:hover ul {
 }
 
 .difference-of-us-bottom-item {
-    margin: -150px 50px 0;
+    margin: -250px 50px 0;
     padding: 50px 30px;
     background-color: white;
     border-radius: 5px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.1);
 }
 
 .difference-of-us-bottom-item img {
