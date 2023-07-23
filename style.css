@@ -550,6 +550,7 @@ footer {
 #footer-some-item-parent {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
 }
 
 .footer-some-single-item h4 {
@@ -593,7 +594,7 @@ footer {
 }
 
 .footer-form-subscribe input {
-    padding: 10px;
+    padding: 15px;
     border: 0;
     border-radius: 5px;
 }
@@ -603,10 +604,11 @@ footer {
 }
 
 .footer-form-subscribe i {
+    font-size: 1.3rem;
     cursor: pointer;
     background-color: #0c9132;
     color: white;
-    padding: 10px;
+    padding: 15px;
     border-collapse: collapse;
     border-radius: 0 5px 5px 0;
 }
@@ -616,4 +618,41 @@ footer {
     font-size: 1rem;
     font-style: oblique;
     font-weight: lighter;
+}
+
+.footer-company-connect{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-company-termsconditions a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(46, 42, 42);
+    font-weight: lighter;
+    transition: .5s;
+}
+
+.footer-company-termsconditions a:hover{
+    color: #0c9132;
+}
+
+.footer-company-link-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer-company-link-item a i{
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid rgb(216, 212, 212);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: white;
+    transition: .3s;
+}
+
+.footer-company-link-item a:hover i{
+    color: #6ae08b;
 }
