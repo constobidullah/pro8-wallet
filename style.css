@@ -522,19 +522,98 @@ nav ul li:hover ul {
     box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
-.still-question-container p{
+.still-question-container p {
     color: gray;
     font-weight: 600;
     line-height: 25px;
 }
 
-.still-item h3{
+.still-item h3 {
     font-weight: 800;
     margin: 10px 0;
 }
 
-.still-item a{
+.still-item a {
     text-decoration: none;
     color: #0c9132;
     border-bottom: 1px dotted #0c9132;
+}
+
+
+/* Footer style here */
+
+footer {
+    background-color: #fbfbfb;
+    padding: 40px;
+}
+
+#footer-some-item-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-some-single-item h4 {
+    color: #3f9457;
+    margin: 20px 0;
+}
+
+
+.footer-some-link a {
+    text-decoration: none;
+    display: block;
+    line-height: 35px;
+    color: rgb(94, 89, 89);
+    transition: .5s;
+}
+
+.footer-some-link a:hover {
+    color: #31aa53;
+    text-decoration: underline;
+}
+
+.footer-form {
+    background-color: #f4f4f4;
+    padding: 0 30px;
+}
+
+.footer-form h4 {
+    margin: 20px 0;
+    /* padding:0; */
+}
+
+.footer-form-subscribe {
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #78d391;
+    border-right: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.footer-form-subscribe input {
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.footer-form-subscribe input:focus {
+    outline: none;
+}
+
+.footer-form-subscribe i {
+    cursor: pointer;
+    background-color: #0c9132;
+    color: white;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 0 5px 5px 0;
+}
+
+.footer-form p{
+    color: gray;
+    font-size: 1rem;
+    font-style: oblique;
+    font-weight: lighter;
 }
