@@ -326,7 +326,7 @@ nav ul li:hover ul {
     margin-bottom: 50px;
 }
 
-.loan-link a:nth-child(1) {
+.loan-link a:nth-child(1)  {
     text-decoration: none;
     margin: 0 5px;
     padding: 10px 25px;
@@ -934,7 +934,7 @@ footer {
         align-items: center;
         flex-direction: column;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
         padding: 10px;
         border-radius: 5px;
         transition: all .5s;
@@ -945,6 +945,7 @@ footer {
     }
 
     .difference-item:hover i{
+        transition: 1s;
         color: white;
         background-color: #065c1e;
     }
@@ -964,6 +965,96 @@ footer {
     .difference-item-text p {
         color: gray;
         line-height: 30px;
+        font-size: 1.1rem;
+    }
+
+    #difference-of-us {
+        padding: 20px 5px;
+    }
+
+    .difference-of-us-item {
+        background-color: #fbfbfb;
+        padding: 30px 10px 250px;
+        border-radius: 5px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .difference-of-us-item h3 {
+        color: #31aa53;
+    }
+    
+    .difference-of-us-item h1 {
+        font-size: 1.2rem;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .loan-link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .loan-link a:nth-child(1)  {
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 5px 10px;
+        background-color: #31aa53;
+        color: white;
+        font-weight: 800;
+        border-radius: 5px;
+    }
+    
+    .loan-link a:nth-child(2) {
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 5px 10px;
+        background-color: transparent;
+        color: rgb(75, 73, 73);
+        font-weight: 800;
+        border-radius: 5px;
+    }
+    
+    .loan-link a:nth-child(3) {
+        text-decoration: none;
+        margin: 0 5px;
+        padding: 5px 10px;
+        background-color: transparent;
+        color: rgb(75, 73, 73);
+        font-weight: 800;
+        border-radius: 5px;
+    }
+    
+    .loan-link a:hover {
+        background-color: #c4f3d1;
+        color: #175228;
+    }
+
+    .difference-of-us-bottom-item {
+        margin: -180px 0 0;
+        padding: 10px;
+        background-color: white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        align-items: center;
+        box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .difference-of-us-bottom-item img {
+        width: 100%;
+    }
+    
+    .difference-bottom-item-text {
+        text-align: left;
+        width: 100%;
+    }
+    
+    .difference-bottom-item-text p {
+        margin-top: 10px;
+        color: gray;
+        font-weight: 600;
         font-size: 1.1rem;
     }
 }
