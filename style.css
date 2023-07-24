@@ -17,11 +17,11 @@ nav {
     justify-content: space-between;
 }
 
-#check {
+#checking {
     display: none;
 }
 
-#toggle {
+.toggle {
     font-size: 1.5rem;
     font-weight: 900;
     cursor: pointer;
@@ -686,8 +686,8 @@ footer {
         display: none;
     }
 
-    #toggle {
-        font-size: 1.5rem;
+    .toggle {
+        font-size: 2rem;
         font-weight: 900;
         cursor: pointer;
         display: block;
@@ -708,12 +708,12 @@ footer {
         /* transition: .3s; */
     }
 
-    #toggle:checked~ul {
+    #checking:checked~ul {
         left: 0;
     }
 
     nav ul li a {
-        line-height: 40px;
+        line-height: 30px;
         text-decoration: none;
         margin: 0 10px;
         padding-bottom: 5px;
@@ -741,7 +741,7 @@ footer {
         position: absolute;
         top: 30px;
         left: -9999px;
-        /* transition: .3s ease; */
+        transition: .3s ease;
     }
 
     nav ul ul li {
@@ -808,7 +808,7 @@ footer {
         font-weight: 800;
     }
 
-    .header-image img{
+    .header-image img {
         width: 100%;
     }
 
@@ -1202,13 +1202,14 @@ footer {
         gap: 30px;
         margin-bottom: 50px;
     }
+
     .footer-some-single-item h4 {
         color: #3f9457;
         margin: 10px 0;
         text-align: center;
     }
 
-    .footer-some-link{
+    .footer-some-link {
         text-align: right;
     }
 
@@ -1229,10 +1230,10 @@ footer {
 
     .footer-form h4 {
         margin: 20px 0;
-        padding:0;
+        padding: 0;
         font-size: 1.5rem;
     }
-    
+
     .footer-form-subscribe {
         margin: 0 0 20px 0;
         display: flex;
@@ -1243,17 +1244,17 @@ footer {
         border-radius: 5px;
         background-color: white;
     }
-    
+
     .footer-form-subscribe input {
         padding: 15px;
         border: 0;
         border-radius: 5px;
     }
-    
+
     .footer-form-subscribe input:focus {
         outline: none;
     }
-    
+
     .footer-form-subscribe i {
         font-size: 1.3rem;
         cursor: pointer;
@@ -1263,11 +1264,11 @@ footer {
         border-collapse: collapse;
         border-radius: 0 5px 5px 0;
     }
-    
+
     .footer-form p {
         color: gray;
         font-size: 1rem;
-        font-style:normal;
+        font-style: normal;
         font-weight: lighter;
     }
 
@@ -1289,8 +1290,8 @@ footer {
         background-color: white;
         transition: .3s;
     }
-    
-    
+
+
 
 
 
