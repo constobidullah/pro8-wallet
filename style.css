@@ -751,6 +751,7 @@ footer {
 
     nav ul li:hover ul {
         left: 25%;
+        right: 25%;
     }
 
     #user-account a {
