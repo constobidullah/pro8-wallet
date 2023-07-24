@@ -818,7 +818,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
-        margin-bottom: 130px;
+        margin-bottom: 30px;
     }
 
     .service-announc {
@@ -895,7 +895,7 @@ footer {
     }
 
     #difference {
-        padding: 50px;
+        padding: 20px;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -975,7 +975,7 @@ footer {
 
     .difference-of-us-item {
         background-color: #fbfbfb;
-        padding: 30px 10px 250px;
+        padding: 30px 2px 250px;
         border-radius: 5px;
         text-align: center;
         justify-content: center;
@@ -993,14 +993,15 @@ footer {
 
     .loan-link {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
+        /* flex-direction: column; */
     }
 
     .loan-link a:nth-child(1) {
         text-decoration: none;
         margin: 0 5px;
-        padding: 5px 10px;
-        background-color: #31aa53;
+        padding: 5px;
+        background-color: #07b33a;
         color: white;
         font-weight: 800;
         border-radius: 5px;
@@ -1222,7 +1223,7 @@ footer {
 
     .footer-form {
         background-color: #f4f4f4;
-        padding: 0 30px;
+        padding: 0 30px 20px;
         margin: 0;
     }
 
