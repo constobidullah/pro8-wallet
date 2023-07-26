@@ -149,49 +149,50 @@
     justify-content: space-around;
 }
 
-.discussion-item{
+.discussion-item {
     text-align: center;
 }
 
-.discussion-item i{
+.discussion-item i {
     font-size: 2.3rem;
     color: #16af3c;
     margin-bottom: 20px;
 }
 
-.discussion-item h1{
+.discussion-item h1 {
     font-weight: 800;
     margin-bottom: 10px;
 }
 
-.discussion-item p{
+.discussion-item p {
     color: gray;
     font-size: 1.1em;
 }
 
-#provide-value{
+#provide-value {
     background-color: #fdfdfd;
     padding: 100px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
-#provide-value-item-parent{
+#provide-value-item-parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-.provide-item{
+.provide-item {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1), 0 5px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.provide-item div{
+.provide-item div {
     background-color: #27b84b;
     color: white;
     padding: 20px;
@@ -201,31 +202,53 @@
     display: inline-block;
 }
 
-.provide-item h1{
+.provide-item h1 {
     font-weight: 800;
     margin-bottom: 15px;
 }
 
-.provide-item p{
+.provide-item p {
     color: gray;
     font-size: 1.1em;
 }
 
 
-.provide-value-text h4{
+.provide-value-text h4 {
     color: #1e993d;
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.provide-value-text h1{
+.provide-value-text h1 {
     font-weight: 800;
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.provide-value-text p{
+.provide-value-text p {
     font-size: 1.1em;
     color: gray;
+}
+
+.question-have{
+    text-align: center;
+}
+
+.question-have h4{
+    color: #1e993d;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.question-have h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.question-have p{
+    color: gray;
+    margin-bottom: 50px;
 }
