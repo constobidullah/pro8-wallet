@@ -7,6 +7,7 @@
 
     <!-- Css file -->
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="style.css">
 
     <title>Wallet</title>
 </head>
@@ -15,12 +16,58 @@
 
 
     <header>
-        <h1>About Us</h1>
-        <div>
-            <li><a href="#">Home</a></li>
-            <li>About</li>
+
+        <nav>
+            <input type="checkbox" id="checking">
+            <label for="checking" class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label for="">
+                <img src="./images/logo.png" alt="">
+            </label>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#">Pages <i class="fa-solid fa-chevron-down"></i></a>
+
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Blog Details</a></li>
+                        <li><a href="#">Service Details</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Terms & condition</a></li>
+                        <li><a href="#">Privery & policy</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <div id="user-account">
+                <a href="">Sign up</a>
+                <a href="">Login</a>
+            </div>
+        </nav>
+
+        <div class="about-header-text">
+            <h1>About Us</h1>
+            <div class="about-page-instractor">
+                <li><a href="index.html">Home</a></li>
+                <li>/</li>
+                <li>About</li>
+            </div>
         </div>
+
     </header>
+
+
+    <section id="about-wallet">
+       
+    </section>
 
 </body>
 
