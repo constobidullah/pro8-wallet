@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -81,7 +81,7 @@
     border-radius: 10px;
 }
 
-.how-it-works-video-thumb{
+.how-it-works-video-thumb {
     position: absolute;
     left: 40%;
     top: 36%;
@@ -96,44 +96,44 @@
     transition: .5s;
 }
 
-.how-it-works-video-thumb:hover{
-   transform: scale(1.1);
+.how-it-works-video-thumb:hover {
+    transform: scale(1.1);
 }
 
-.apply-loan-container{
+.apply-loan-container {
     padding: 100px;
     background-color: #fbfbfb;
 }
 
-.apply-loan{
+.apply-loan {
     text-align: center;
 }
 
-.apply-loan h4{
+.apply-loan h4 {
     color: #1e993d;
     font-weight: 900;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.apply-loan h1{
+.apply-loan h1 {
     font-size: 2.5rem;
     font-weight: 900;
     line-height: 40px;
 }
 
-.apply-loan-rules{
+.apply-loan-rules {
     display: flex;
     justify-content: space-between;
     margin: 50px;
 }
 
-.apply-loan-rules-item{
+.apply-loan-rules-item {
     text-align: center;
     padding: 20px;
 }
 
-.apply-loan-rules-item span{
+.apply-loan-rules-item span {
     color: white;
     background-color: #1e993d;
     font-weight: 900;
@@ -142,12 +142,43 @@
     border-radius: 50%;
 }
 
-.apply-loan-rules-item h1{
-    margin:40px 0 10px;
+.apply-loan-rules-item h1 {
+    margin: 40px 0 10px;
 }
 
-.apply-loan-rules-item p{
+.apply-loan-rules-item p {
     font-weight: 600;
     font-size: 1em;
     color: rgb(192, 192, 192);
+}
+
+
+/* Question have */
+
+.question-have {
+    padding: 100px;
+}
+
+.question-have-title {
+    text-align: center;
+}
+
+.question-have-title h4 {
+    color: #1e993d;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.question-have-title h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.question-have-title p {
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 30px;
 }
