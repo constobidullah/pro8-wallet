@@ -5,7 +5,7 @@
 }
 
 .about-header-text {
-    background-color: #fffcfc;
+    background-color: #fafdff;
     color: black;
     text-align: center;
     padding: 100px 0 50px;
@@ -170,7 +170,7 @@
 }
 
 #provide-value {
-    background-color: #fdfdfd;
+    background-color: #fafdff;
     padding: 100px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -262,7 +262,7 @@
     margin-bottom: 100px;
 }
 
-.team-single-item{
+.team-single-item {
     transition: .3s;
 }
 
@@ -295,7 +295,7 @@
     transition: .4s;
 }
 
-.team-single-item:hover .team-single-item-link{
+.team-single-item:hover .team-single-item-link {
     visibility: visible;
     opacity: 1;
 }
@@ -317,12 +317,211 @@
     text-align: center;
 }
 
-.team-single-item-text h1{
+.team-single-item-text h1 {
     font-weight: 800;
     margin: 10px 0;
 }
 
-.team-single-item-text p{
+.team-single-item-text p {
     font-size: 1.1em;
     color: gray;
+}
+
+
+
+/* Mobile responsive  */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafdff;
+        color: black;
+        text-align: center;
+        padding: 50px 0;
+
+        /* margin-bottom: 100px; */
+    }
+
+    /* About wallet */
+
+    #about-wallet {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* justify-content: space-between; */
+        place-items: center;
+        gap: 50px;
+    }
+
+    .about-wallet-text h4 {
+        font-weight: 800;
+    }
+
+    .about-wallet-text h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+
+    .about-wallet-text p {
+        font-size: 1rem;
+        color: gray;
+    }
+
+    .about-wallet-image {
+        width: 100%;
+    }
+
+    .about-wallet-image img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    /* About details container */
+    #about-details-container {
+        background-color: #f7fcff;
+        padding: 20px 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .who-we-are {
+        width: 100%;
+    }
+
+    .who-we-are h1 {
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .who-we-are p {
+        font-size: 1.1rem;
+        color: rgb(136, 128, 128);
+        margin-bottom: 20px;
+    }
+
+    .who-we-are span {
+        color: gray;
+        font-size: .8rem;
+        font-weight: 300;
+    }
+
+    .what-we-offer {
+        width: 100%;
+    }
+
+    .what-we-offer h1 {
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    .what-we-offer p {
+        font-size: 1.1rem;
+        color: rgb(136, 128, 128);
+        margin-bottom: 20px;
+    }
+
+    .what-we-offer ul {
+        list-style: none;
+    }
+
+    .what-we-offer ul li {
+        padding: 5px 0;
+        color: gray;
+        font-size: .8rem;
+        font-weight: 500;
+    }
+
+    .what-we-offer ul li:before {
+        content: "\2605";
+        border-radius: 100%;
+        color: #fff;
+        background-color: #1e993d;
+        margin-right: 5px;
+    }
+
+    .discussion {
+        padding: 40px 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .discussion-item {
+        text-align: center;
+    }
+
+    .discussion-item i {
+        font-size: 2rem;
+        color: #16af3c;
+        margin-bottom: 20px;
+    }
+
+    .discussion-item h1 {
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .discussion-item p {
+        color: gray;
+        font-size: 1.1em;
+    }
+
+    /* Provide values */
+
+
+    #provide-value {
+        background-color: #fafdff;
+        padding: 50px 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .question-have h4 {
+        color: #1e993d;
+        font-weight: 900;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+
+    .question-have h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+
+    .question-have p {
+        color: gray;
+        margin-bottom: 50px;
+        font-size: 1rem;
+    }
+
+    /* Team  */
+
+    #team {
+        width: 100%;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 100px;
+    }
+
 }
