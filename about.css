@@ -259,6 +259,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-bottom: 100px;
 }
 
 .team-single-item{
@@ -314,4 +315,14 @@
 
 .team-single-item-text {
     text-align: center;
+}
+
+.team-single-item-text h1{
+    font-weight: 800;
+    margin: 10px 0;
+}
+
+.team-single-item-text p{
+    font-size: 1.1em;
+    color: gray;
 }
