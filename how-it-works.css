@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-header-text {
+    background-color: #fafdff;
+    color: black;
+    text-align: center;
+    padding: 100px 0 50px;
+
+    /* margin-bottom: 100px; */
+}
+
+.about-header-text h1 {
+    margin-bottom: 30px;
+}
+
+.about-page-instractor {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-page-instractor li {
+    font-size: 1.1em;
+    color: rgb(105, 102, 102);
+}
+
+.about-page-instractor li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.about-page-instractor li a:hover {
+    color: #61B576;
+}
