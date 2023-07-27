@@ -40,3 +40,62 @@
 .about-page-instractor li a:hover {
     color: #61B576;
 }
+
+#how-it-works {
+    padding: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* justify-content: space-between; */
+    place-items: center;
+    gap: 50px;
+}
+
+.how-it-works-text {
+    width: 100%;
+}
+
+.how-it-works-text h4 {
+    color: #1e993d;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.how-it-works-text h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.how-it-works-text p {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.how-it-works-image {
+    width: 100%;
+    position: relative;
+}
+
+.how-it-works-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.how-it-works-video-thumb{
+    position: absolute;
+    left: 40%;
+    top: 36%;
+    background-color: #51b56d;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border: 8px solid #9cce9c;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.how-it-works-video-thumb:hover{
+   transform: scale(1.1);
+}
