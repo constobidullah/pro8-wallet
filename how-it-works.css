@@ -182,3 +182,35 @@
     color: gray;
     margin-bottom: 30px;
 }
+
+.get-wallet{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.get-wallet-item{
+    border-radius: 10px;
+    background-color: white;
+    padding: 40px 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+.get-wallet-item i{
+    padding: 23px;
+    background-color: #46b461;
+    color: white;
+    border-radius: 5px;
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+
+.get-wallet-item h1{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.get-wallet-item p{
+    color: gray;
+    font-size: 1.1em;
+}
