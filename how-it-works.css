@@ -183,20 +183,20 @@
     margin-bottom: 30px;
 }
 
-.get-wallet{
+.get-wallet {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
 
-.get-wallet-item{
+.get-wallet-item {
     border-radius: 10px;
     background-color: white;
     padding: 40px 30px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.get-wallet-item i{
+.get-wallet-item i {
     padding: 23px;
     background-color: #46b461;
     color: white;
@@ -205,12 +205,60 @@
     margin-bottom: 20px;
 }
 
-.get-wallet-item h1{
+.get-wallet-item h1 {
     margin-bottom: 20px;
     font-weight: 700;
 }
 
-.get-wallet-item p{
+.get-wallet-item p {
     color: gray;
     font-size: 1.1em;
+}
+
+.additional {
+    background-color: #fbfbfb;
+    padding: 150px;
+}
+
+.additional-title {
+    text-align: center;
+}
+
+.additional-title h3 {
+    color: #1e993d;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.additional-title h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+
+.information-question {
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.information-question-item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.information-question-item details{
+    margin-top: 20px;
+}
+
+.information-question-item summary {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.information-question-item p{
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: rgb(165, 162, 162);
 }
