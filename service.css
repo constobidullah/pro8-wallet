@@ -38,3 +38,52 @@
 .about-page-instractor li a:hover {
     color: #61B576;
 }
+
+
+/* Service */
+
+#service-parent{
+    padding: 100px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-child{
+    border-radius: 7px;
+    padding: 50px 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.service-child i{
+    background-color: #51b56d;
+    color: white;
+    padding: 25px;
+    font-size: 2rem;
+    border-radius: 4px;
+    /* margin-bottom: 20px; */
+}
+
+.service-child h2{
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+.service-child p{
+    color: gray;
+    font-size: 1.1em;
+    margin: 20px 0 40px;
+}
+
+.service-child a{
+    margin-bottom: 30px;
+    text-decoration: none;
+    background-color: #bee6ca;
+    color: #4e925f;
+    padding: 15px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+}
