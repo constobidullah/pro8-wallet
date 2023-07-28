@@ -42,14 +42,14 @@
 
 /* Service */
 
-#service-parent{
+#service-parent {
     padding: 100px 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
-.service-child{
+.service-child {
     border-radius: 7px;
     padding: 50px 10px;
     text-align: center;
@@ -58,7 +58,7 @@
 }
 
 
-.service-child i{
+.service-child i {
     background-color: #51b56d;
     color: white;
     padding: 25px;
@@ -67,18 +67,18 @@
     /* margin-bottom: 20px; */
 }
 
-.service-child h2{
+.service-child h2 {
     font-weight: 800;
     margin: 20px 0;
 }
 
-.service-child p{
+.service-child p {
     color: gray;
     font-size: 1.1em;
     margin: 20px 0 40px;
 }
 
-.service-child a{
+.service-child a {
     margin-bottom: 30px;
     text-decoration: none;
     background-color: #bee6ca;
@@ -86,4 +86,37 @@
     padding: 15px 25px;
     font-weight: 600;
     border-radius: 5px;
+}
+
+
+/* Mobile responsive */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafdff;
+        color: black;
+        text-align: center;
+        padding: 50px 0;
+
+        /* margin-bottom: 100px; */
+    }
+
+    #service-parent {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+
 }
