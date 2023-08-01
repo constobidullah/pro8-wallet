@@ -519,15 +519,15 @@ nav ul li:hover ul {
 }
 
 .still-question-container {
-    height: 50vh;
+    /* height: 50vh; */
     padding: 10px 30px 30px;
     background-color: white;
-    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+    /* box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .still-question-container p {
     color: gray;
-    font-weight: 600;
+    font-size: 1.1em;
     line-height: 25px;
 }
 

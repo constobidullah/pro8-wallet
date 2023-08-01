@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-header-text {
+    background-color: #fafafa;
+    color: black;
+    text-align: center;
+    padding: 100px 0 50px;
+
+    /* margin-bottom: 100px; */
+}
+
+.about-header-text h1 {
+    margin-bottom: 30px;
+}
+
+.about-page-instractor {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-page-instractor li {
+    font-size: 1.1em;
+    color: rgb(105, 102, 102);
+}
+
+.about-page-instractor li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.about-page-instractor li a:hover {
+    color: #61B576;
+}
+
+
+/* Contact title */
+#contact-title {
+    text-align: center;
+    margin: 100px 0 30px;
+}
+
+#contact-title h4 {
+    font-weight: 800;
+    color: #5cad71;
+    margin-bottom: 10px;
+}
+
+#contact-title h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#contact-title p {
+    color: gray;
+    font-size: 1.1em;
+}
+
+
+/* Contact form */
+#contact-form {
+    margin: 0 150px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 50px 30px;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact h1 {
+    margin-bottom: 30px;
+}
+
+.contact input {
+    margin-bottom: 20px;
+}
+
+.contact input,
+textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(235, 233, 233);
+}
+
+textarea {
+    height: 150px;
+}
+
+.contact input:focus {
+    outline: none;
+    border: 1px solid #5cad71;
+}
+
+.contact textarea:focus {
+    outline: none;
+    border: 1px solid #5cad71;
+}
+
+.contact input[type="submit"]{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    background-color: #4eb069;
+    transition: .5s;
+}
+
+.contact input[type="submit"]:hover{
+    background-color: #167230;
+}
+
+.still-question-container {
+    width: 100%;
+}
+
+.still-item-link{
+    margin-top: 47px;
+}
+
+.still-item-link a{
+    margin-right: 25px;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 8px;
+    color: #000;
+    transition: .5s;
+}
+
+.still-item-link a:hover{
+    color: #4eb069;
+}
