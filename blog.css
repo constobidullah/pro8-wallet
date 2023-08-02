@@ -44,8 +44,8 @@
 #blog-container {
     margin-top: 50px;
     display: grid;
-    grid-template-columns: 4fr 1fr;
-    gap: 30px;
+    grid-template-columns: 7fr 2fr;
+    gap: 50px;
     padding: 0 70px;
 }
 
@@ -124,4 +124,125 @@
 .pagination a:hover {
     background-color: #439457;
     color: white;
+}
+
+
+/* Category item */
+.category {
+    margin-bottom: 50px;
+}
+
+.category h3 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+
+.category p {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: rgb(66, 66, 66);
+    /* font-size: 1.1em; */
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.category p:hover {
+    background-color: #439457;
+    color: white;
+}
+
+.tags {
+    margin-bottom: 40px;
+}
+
+.tags h2 {
+    margin-bottom: 20px;
+}
+
+.tags-item {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tags-item p {
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.tags-item p:hover {
+    background-color: #439457;
+    color: white;
+}
+
+.letest-container h2 {
+    margin-bottom: 30px;
+}
+
+.letest-article-child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.letest-article-child img {
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+    border-radius: 4px;
+}
+
+.letest-article-child-title a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.letest-article-child-title a h5 {
+    margin-bottom: 5px;
+    transition: .3s;
+}
+
+.letest-article-child-title a h5:hover {
+    color: #277039;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.letest-article-child-title p {
+    font-size: .9rem;
+    color: gray;
+}
+
+.social-links h1 {
+    margin: 30px 0;
+}
+
+.social-links a {
+    margin-right: 15px;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border: 1px solid rgb(218, 215, 215);
+    border-radius: 8px;
+    color: #000;
+    transition: .5s;
+}
+
+.social-links a:hover {
+    color: #4eb069;
+}
+
+
+/* Mobile responsive */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 }
