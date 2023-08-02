@@ -755,12 +755,16 @@ footer {
         left: 25%;
         right: 25%;
     }
-
+    #user-account{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
     #user-account a {
         text-decoration: none;
-        padding: 5px 10px;
+        padding: 5px;
         border-radius: 7px;
-        font-weight: 900;
+        font-weight: 600;
         background-color: #e0f2e5;
         color: #3f9457;
         transition: background-color .5s ease-in-out;
