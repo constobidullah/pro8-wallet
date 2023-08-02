@@ -106,9 +106,6 @@
     font-size: 1.9rem;
 }
 
-.pagination {
-    /* grid-column: 2/3; */
-}
 
 .pagination a {
     text-decoration: none;
