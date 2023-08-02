@@ -113,7 +113,7 @@ textarea {
     border: 1px solid #5cad71;
 }
 
-.contact input[type="submit"]{
+.contact input[type="submit"] {
     cursor: pointer;
     border: none;
     border-radius: 7px;
@@ -126,7 +126,7 @@ textarea {
     transition: .5s;
 }
 
-.contact input[type="submit"]:hover{
+.contact input[type="submit"]:hover {
     background-color: #167230;
 }
 
@@ -134,11 +134,11 @@ textarea {
     width: 100%;
 }
 
-.still-item-link{
+.still-item-link {
     margin-top: 47px;
 }
 
-.still-item-link a{
+.still-item-link a {
     margin-right: 25px;
     font-size: 1.2rem;
     padding: 10px 15px;
@@ -148,6 +148,113 @@ textarea {
     transition: .5s;
 }
 
-.still-item-link a:hover{
+.still-item-link a:hover {
     color: #4eb069;
+}
+
+
+
+/* Mobile responsive */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafafa;
+        color: black;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .about-header-text h1 {
+        margin-bottom: 30px;
+    }
+
+    .about-page-instractor {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .about-page-instractor li {
+        font-size: 1.1em;
+        color: rgb(105, 102, 102);
+    }
+
+    .about-page-instractor li a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: .3s;
+    }
+
+    .about-page-instractor li a:hover {
+        color: #61B576;
+    }
+
+
+    #contact-title {
+        text-align: center;
+        margin: 30px 0;
+        padding: 10px;
+    }
+
+    #contact-title h4 {
+        font-weight: 800;
+        color: #5cad71;
+        margin-bottom: 10px;
+    }
+
+    #contact-title h1 {
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: black;
+        margin-bottom: 10px;
+    }
+
+    #contact-title p {
+        color: gray;
+        font-size: 1em;
+    }
+
+    #contact-form {
+        margin: 0 20px;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 50px 30px;
+        margin-bottom: 100px;
+    }
+
+    .still-item-link {
+        margin-top: 47px;
+        text-align: center;
+    }
+
+    .still-item-link a {
+        margin-right: 10px;
+        font-size: 1.2rem;
+        padding: 10px 15px;
+        border: 1px solid rgb(218, 215, 215);
+        border-radius: 8px;
+        color: #000;
+        transition: .5s;
+    }
+
+    .still-item-link a:hover {
+        color: #4eb069;
+    }
+
+
 }
