@@ -245,4 +245,44 @@
         padding: 0;
         box-sizing: border-box;
     }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafdff;
+        color: black;
+        text-align: center;
+        padding: 40px;
+    }
+
+    #blog-container {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 0 10px;
+    }
+
+    #blog-item-parent {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-bottom: 50px;
+    }
+
+
+    .more-blog {
+        display: none;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .social-links{
+        margin-bottom: 40px;
+    }
+
+
 }
+
