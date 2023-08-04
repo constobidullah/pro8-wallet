@@ -38,3 +38,97 @@
 .about-page-instractor li a:hover {
     color: #61B576;
 }
+
+/* Service details */
+#service-details {
+    margin: 120px 70px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+    position: relative;
+}
+
+#personal-loan {
+    box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px 20px;
+    height: 25vh;
+    position: sticky;
+    top: 20px;
+}
+
+#personal-loan h3 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+#personal-loan h3::after {
+    content: " ";
+    height: 2px;
+    width: 40px;
+    margin: 0 0 0 10px;
+    background-color: silver;
+    position: absolute;
+    top: 43px;
+}
+
+#personal-loan ul {
+    list-style-type: none;
+    position: relative;
+}
+
+#personal-loan ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: .9em;
+    font-weight: 600;
+    line-height: 30px;
+    color: rgb(77, 75, 75);
+    margin-left: 5px;
+}
+
+#personal-loan ul li::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 12px;
+}
+
+#personal-loan ul li:nth-child(2)::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 42px;
+}
+#personal-loan ul li:nth-child(3)::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 72px;
+}
+#personal-loan ul li:nth-child(4)::before {
+    content: " ";
+    height: 7px;
+    width: 7px;
+    background-color: #61B576;
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: -10px;
+    top: 102px;
+}
