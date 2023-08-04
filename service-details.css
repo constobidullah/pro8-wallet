@@ -153,3 +153,73 @@
     font-size: 1.1rem;
     margin: 0 0 30px 0;
 }
+
+.personal-loan-text-child-two{
+    margin: 0 0 30px 0;
+}
+
+.personal-loan-text-child-two h2{
+    color: #233242;
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0 0 20px 0;
+}
+
+.personal-loan-text-child-two ul{
+    list-style: none;
+    color: #888888;
+    line-height: 30px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.personal-loan-text-child-two ul li{
+    margin-left: 5px;
+}
+
+.personal-loan-text-child-two ul li::after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #61B576;
+    /* color: white;
+    text-align: center;
+    font-size: 5px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.personal-loan-text-child-two ul li:nth-child(2):after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #61B576;
+    /* color: white;
+    text-align: center;
+    font-size: 5px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+.personal-loan-text-child-two ul li:nth-child(3):after{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: #61B576;
+    /* color: white;
+    text-align: center;
+    font-size: 5px; */
+    margin-right: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    top: 70px;
+}
+
+hr{
+    margin: 10px 0 30px;
+}
