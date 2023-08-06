@@ -734,25 +734,25 @@ footer {
     nav ul ul {
         align-items: center;
         display: block;
-        background-color: rgb(168, 180, 192);
-        min-width: 200px;
-        max-width: 250px;
+        background-color: rgb(53, 137, 221);
+        width: 100%;
         height: auto;
         border-radius: 3px;
         position: absolute;
         top: 30px;
-        left: -9999px;
+        left: -100000000000000px;
         transition: .3s ease;
     }
 
     nav ul ul li {
         width: 100%;
-        padding: 10px;
+        padding: 0 10px;
     }
 
     nav ul li:hover ul {
-        left: 25%;
-        right: 25%;
+        width: 100%;
+        left: 17%;
+        right: 20%;
     }
     #user-account{
         display: flex;
