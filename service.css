@@ -113,8 +113,8 @@
     }
 
     #service-parent {
-        padding: 20px;
-        margin: 0 5px;
+        padding: 5px;
+        /* margin: 0 5px; */
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
