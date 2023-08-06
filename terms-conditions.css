@@ -84,6 +84,14 @@
     margin-bottom: 20px;
 }
 
+/* For privacy  */
+.terms-child-one:nth-child(4) li {
+    list-style-type: none;
+    font-size: 1.1em;
+    color: gray;
+    margin-bottom: 20px;
+}
+
 
 /* Mobile responsive  */
 
