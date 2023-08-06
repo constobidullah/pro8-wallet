@@ -282,23 +282,19 @@ hr {
 
     /* Service details */
     #service-details {
-        margin: 10px;
+        margin: 100px 10px 10px;
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
-        position: relative;
+        position: unset;
     }
 
 
     /* Personal loans */
     #personal-loan {
-        background-color: #fafdff;
-        box-shadow: 0 10px 100px 0 rgba(0, 0, 0, 0.1);
-        border-radius: 10px;
-        padding: 30px 20px;
         height: auto;
         width: 100%;
-        position: static;
+        position: unset;
     }
 
     /* Personal loans text */

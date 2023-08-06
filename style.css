@@ -700,14 +700,13 @@ footer {
         text-align: center;
         display: block;
         list-style-type: none;
-
         width: 100%;
         height: 100vh;
-        background-color: #fbfbfb;
+        background-color: #fafdff;
         position: absolute;
         top: 50px;
         left: -99999px;
-        /* transition: .3s; */
+        transition: .3s;
     }
 
     #checking:checked~ul {
