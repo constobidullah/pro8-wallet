@@ -9,8 +9,6 @@
     color: black;
     text-align: center;
     padding: 100px 0 50px;
-
-    /* margin-bottom: 100px; */
 }
 
 .about-header-text h1 {
@@ -40,36 +38,76 @@
 }
 
 
-#legal-parent{
+#legal-parent {
     padding: 100px 150px;
 }
 
-.legal-title-para{
+.legal-title-para {
     color: gray;
     font-size: 1.1em;
     line-height: 30px;
     margin-bottom: 40px;
 }
 
-#legal-items-container{
+#legal-items-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
 }
 
 
-.legal-item a{
+.legal-item a {
     text-decoration: none;
     color: #51b56d;
 }
 
-.legal-item a h2{
+.legal-item a h2 {
     border-bottom: 1px dotted #51b56d;
     display: inline;
 }
 
-.legal-item p{
+.legal-item p {
     margin-top: 20px;
     color: gray;
     font-size: 1.1rem;
+}
+
+
+/* Mobile responsive */
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .about-header-text {
+        background-color: #fafdff;
+        color: black;
+        text-align: center;
+        padding: 30px;
+    }
+
+    #legal-parent {
+        padding: 30px 10px 50px;
+    }
+
+    #legal-items-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    
+
+
+
+
+
+
 }
