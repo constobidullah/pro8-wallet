@@ -44,10 +44,10 @@
 
 #service-parent {
     padding: 100px 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* gap: 5px; */
-
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .service-child {
@@ -58,7 +58,7 @@
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-.service-child:nth-child(1) {
+/* .service-child:nth-child(1) {
     grid-column: 1/4;
 }
 .service-child:nth-child(2) {
@@ -74,7 +74,7 @@
 
 .service-child:nth-child(5) {
     grid-column: 2/3;
-}
+} */
 
 .service-child i {
     background-color: #51b56d;
