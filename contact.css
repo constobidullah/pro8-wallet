@@ -233,7 +233,7 @@ textarea {
         display: flex;
         flex-direction: column;
         gap: 30px;
-        padding:20px;
+        padding: 10px;
         margin-bottom: 100px;
     }
 
@@ -245,7 +245,7 @@ textarea {
     .still-item-link a {
         margin-right: 10px;
         font-size: 1.2rem;
-        padding: 10px 15px;
+        padding: 10px;
         border: 1px solid rgb(218, 215, 215);
         border-radius: 8px;
         color: #000;

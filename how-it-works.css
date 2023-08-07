@@ -293,9 +293,9 @@
         padding: 10px;
         display: grid;
         grid-template-columns: 1fr;
-        /* justify-content: space-between; */
         place-items: center;
-        gap: 50px;
+        gap: 30px;
+        margin-bottom: 50px;
     }
 
     .how-it-works-text h4 {
@@ -364,7 +364,7 @@
     }
 
     .apply-loan-rules-item {
-        text-align: center;
+        text-align: justify;
         padding: 10px;
     }
 
