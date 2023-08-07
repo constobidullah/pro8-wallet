@@ -163,7 +163,9 @@ nav ul li:hover ul {
 .service-item:hover {
     border: 1px solid rgb(247, 241, 241);
     box-shadow: 0 10px 28px 0 rgba(0, 0, 0, 0.1), 0 6px 10px 0 rgba(0, 0, 0, 0.0);
+    opacity: 1;
 }
+
 
 .service-item:hover h2 {
     color: #3f9457;
@@ -189,8 +191,8 @@ nav ul li:hover ul {
 
 .service-item p {
     color: gray;
-    font-size: .9rem;
-    font-weight: 600;
+    font-size: 1.1em;
+    font-weight: 500;
 }
 
 
@@ -701,11 +703,12 @@ footer {
         display: block;
         list-style-type: none;
         width: 100%;
-        height: 50vh;
+        height: 70vh;
         background-color: #fafdff;
         position: absolute;
         top: 50px;
         left: -99999px;
+        z-index: 1;
         transition: all .5s ease-in-out;
     }
 
