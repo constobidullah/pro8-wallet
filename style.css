@@ -166,6 +166,10 @@ nav ul li:hover ul {
     
 }
 
+#our-services-container:hover .service-item:not(:hover) {
+    opacity: 0.2;
+  }
+
 
 .service-item:hover h2 {
     color: #3f9457;
